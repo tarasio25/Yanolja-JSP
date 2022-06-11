@@ -1,0 +1,14 @@
+sqlplus system/dba;
+
+drop user PROJECT cascade;
+
+create user project identified by 1234;
+
+alter user project account unlock;
+
+grant connect , resource to project;
+
+commit;
+
+exit
+
