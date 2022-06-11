@@ -1,0 +1,70 @@
+﻿@CHARSET "UTF-8";
+
+body {	
+	font-size: 12pt;
+	font-family: 야놀자 야체 Regular;
+	background-color: #eee;
+}
+
+
+/* 로고(헤더) 부분이 스크롤을 내려도 위치가 고정되게함 */
+header {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+/* table 의 너비를 전체 페이지의 60%로 고정하고, 색상은 흰색배경 */
+table.section{
+	width: 60%;
+	padding: 7px;
+	border-spacing: 7px;
+	background-color: #fff;
+	margin: 10px;
+	font-family: 야놀자 야체 Regular;
+	font-size: 12pt;
+}
+
+
+/* input text 박스에서 아래 경계라인 부분만 표시(네모로 표현되는것이아니라 밑줄로 표현) */
+input.text{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #eee;
+}
+
+/* input text 박스에서 커서를 갔다 댔을경우, 경계선표시 없애고 아래 경계라인을 검정색으로 표현,  */
+input:focus {
+    outline: none;
+    border-bottom-color: black;
+}
+
+
+/* 핑크 버튼 */
+.pb{
+	width: 100%;
+	background-color: #FE3378;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+	border: 0px;
+	border-radius: 6px;	
+	font-size: 12px;
+}
+
+/* 화이트 버튼 */
+.wb{
+	width: 100%;
+	border-color: #FE3378;
+	background-color: #Fff;
+	padding: 10px;
+	text-align: center;
+	color:#FE3378;
+	border: 0px;
+	border-radius: 6px;	
+	font-size: 12px;
+}
+
