@@ -1,3 +1,1 @@
 # Yanolja-Java
-
-ㅠㅠ
